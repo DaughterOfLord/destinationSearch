@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.image {
+  height: 150px;
+  width: 200px;
+}
+
+@media screen and (max-width: 576px) {
+  .image {
+    height: 220px;
+    width: 320px;
+  }
+}
+
+.list {
+  list-style-type: none;
+  margin: 15px;
+}
+
+.title {
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

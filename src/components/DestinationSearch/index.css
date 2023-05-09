@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.destination-search-bg-con {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  padding: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .destination-search-bg-con {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.destination-search-con {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+}
+
+.destination-search-heading {
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.destination-search-input-icon {
+  width: 90px;
+  height: 25px;
+  border-radius: 8px;
+  color: #252627;
+  font-size: 20px;
+}
+
+.destination-search-input {
+  color: #000000;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.destination-search-icon {
+  text-align: right;
+  height: 11px;
+  width: 13px;
+}
